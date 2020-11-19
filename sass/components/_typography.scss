@@ -1,0 +1,88 @@
+* {
+    font-family: 'Segoe UI Regular';
+}
+
+// Change values of variables to custimize it on entire site
+$h1-font-size: 2rem;
+$h2-font-size: 1.8rem;
+$h3-font-size: 1.6rem;
+$h4-font-size: 1.4rem;
+$h5-font-size: 1.2rem;
+$p-font-size: 1rem;
+
+$text-primary: rgba(0, 0, 0, 0.87);
+$text-secondary: rgba(0, 0, 0, 0.54);
+$text-disabled: rgba(0, 0, 0, 0.38);
+$text-light: rgba(255, 255, 255, 0.95);
+
+// Typography
+h1 {
+    font-size: $h1-font-size;
+}
+
+h2 {
+    font-size: $h2-font-size;
+}
+
+h3 {
+    font-size: $h3-font-size;
+}
+
+h4 {
+    font-size: $h4-font-size;
+}
+
+h5 {
+    font-size: $h5-font-size;
+}
+
+p {
+    font-size: $p-font-size;
+}
+
+h1,h2,h3,h4,h5,p {
+    text-decoration: none;
+}
+
+// Colors
+.text-primary {
+    color: $text-primary;
+}
+
+.text-secondary {
+    color: $text-secondary;
+}
+
+.text-disabled {
+    color: $text-disabled;
+}
+
+.text-light {
+    color: $text-light;
+}
+
+// Alignment
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+// Font weight
+.text-normal {
+    font-weight: normal;
+}
+
+.text-bold {
+    font-weight: bold;
+}

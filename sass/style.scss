@@ -6,7 +6,22 @@
     padding: 0;
 }
 
-h1 {
-    font-family: 'Segoe UI Regular';
-    font-weight: normal;
+// Styles
+@import './palette';
+@import './mixins';
+@import './responsiveness';
+// You can customize all these styles in sass/components/${wanted_component}
+@import './components/typography';
+@import './components/buttons';
+@import './components/modal';
+@import './components/dividers';
+@import './components/spacing';
+
+// Stylesheets not directly related to the project
+
+.bring-to-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

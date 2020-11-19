@@ -1,0 +1,11 @@
+$circle-divider-color: $info-color;
+$circle-divider-size: 1rem;
+
+.circle-divider {
+    display: block;
+    background-color: $circle-divider-color;
+    width: $circle-divider-size;
+    height: $circle-divider-size;
+    border-radius: 50%;
+    margin: 1rem auto;
+}

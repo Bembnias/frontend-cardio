@@ -1,0 +1,41 @@
+$btn-lg-fontsize: 1.35rem;
+
+.btn {
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .35s;
+    &-primary{
+        background-color: $primary-color;
+        color: $text-light;
+    }
+    &-secondary{
+        background-color: $secondary-color;
+        color: $text-light;
+    }
+    &-error{
+        background-color: $error-color;
+        color: $text-light;
+    }
+    &-warning{
+        background-color: $warning-color;
+        color: $text-primary;
+    }
+    &-info{
+        background-color: $info-color;
+        color: $text-light;
+    }
+    &-success{
+        background-color: $success-color;
+        color: $text-light;
+    }
+    &-lg {
+        font-size: $btn-lg-fontsize;
+    }
+    &:hover {
+        opacity: .9;
+    }
+}
